@@ -94,39 +94,6 @@ npm run dev
 npm run build
 ```
 
-## 📅 Week Schedule
-
-| Day | Focus | Key Deliverables |
-|-----|-------|-----------------|
-| **Monday** | Kick-off, concept development | Concept document |
-| **Tuesday** | Level design, mockups | Level design mockup, Rules V1 |
-| **Wednesday** | User testing, prototyping | Printable prototype |
-| **Thursday** | Enhancement, game shooting | Video content |
-| **Friday** | Polishing, presentation | Final game, video demo |
-
-## 🎓 Learning Modules
-
-- What are serious games?
-- Business case studies
-- Fun and learning principles
-- Digital add-ons and enhancements
-- The 4 player profiles
-- Flow concept
-- Serious game level design
-- Game rules
-- User testing
-- Pitching projects in English
-
-## 👥 Target Audience
-
-- Digital school students
-- Teams of 3-5 participants
-- Beginner to intermediate English speakers
-- Aspiring game designers
-
-## 📝 License
-
-This project is part of an educational program by MyDigitalSchool.
 
 ## 🤝 Contributing
 
