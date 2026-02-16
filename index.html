@@ -2,11 +2,436 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet" />
   </head>
+
   <body>
-    <div id="app"></div>
+    <!-- TOPBAR -->
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="#" aria-label="English Game">
+          <span class="brand__badge">ENGLISH<br />GAME</span>
+        </a>
+
+        <nav class="topbar__nav">
+          <a class="topbar__link" href="#">Planning</a>
+          <a class="topbar__link" href="#">Project</a>
+          <a class="topbar__link" href="#">Learning</a>
+          <a class="topbar__link" href="#">Badges</a>
+          <a class="topbar__link" href="#">Ranking</a>
+        </nav>
+
+        <div class="topbar__actions">
+          <button class="icon-btn" aria-label="Notifications">🔔</button>
+          <button class="avatar-btn" aria-label="Account">
+            <span class="avatar-btn__dot"></span>
+            <span class="avatar-btn__avatar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <!-- HERO (dark) -->
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__left">
+            <h1 class="hero__title">Welcome to the<br />English Game</h1>
+
+            <p class="hero__desc">
+              An immersive challenge to practise and improve your english level
+              through an inter-school competition.<br />
+              For one week, you will work with your team to design a full
+              serious game. Be prepared to get involved, create the best game
+              and challenge yourself!
+            </p>
+
+            <a class="btn btn--mint" href="#">Discover the program</a>
+          </div>
+
+          <div class="hero__right">
+            <div class="video-frame">
+              <img
+                class="video-frame__img"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80&auto=format&fit=crop"
+                alt="Video thumbnail" />
+              <button class="video-frame__play" aria-label="Play">
+                <span class="play"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- BIG WHITE CARD (radius XL) -->
+        <div class="container-spec">
+          <section
+            class="surface surface--paper surface--shadow surface--pad-xxl surface--lift-on-dark">
+            <h2 class="section-title">
+              What does the challenge have in store for you?
+            </h2>
+
+            <div class="feature-grid">
+              <article class="feature">
+                <div class="feature__img">
+                  <img
+                    class="feature__asset"
+                    src="./assets/three-people.png"
+                    alt="Fun learning practice" />
+                </div>
+                <h3 class="feature__title">
+                  An experience based on fun, learning and practice
+                </h3>
+                <p class="feature__text">
+                  We hope that your week will be filled with learning and
+                  hands-on experience, but most of all that you will have lots
+                  of fun and enjoyment!
+                </p>
+              </article>
+
+              <article class="feature">
+                <div class="feature__img">
+                  <img
+                    class="feature__asset feature__asset--slightly-bigger"
+                    src="./assets/one-guy.png"
+                    alt="Videos and quizzes" />
+                </div>
+                <h3 class="feature__title">
+                  The basics of serious games through videos and quizzes
+                </h3>
+                <p class="feature__text">
+                  A team of serious game experts will join you in the English
+                  Game to share their experience and teach you the fundamentals
+                  of game mechanics.
+                </p>
+              </article>
+
+              <article class="feature">
+                <div class="feature__img">
+                  <img
+                    class="feature__asset"
+                    src="./assets/two-girls-one-skrew-diver.png"
+                    alt="Tools from A to Z" />
+                </div>
+                <h3 class="feature__title">
+                  Tools to design a project from A to Z
+                </h3>
+                <p class="feature__text">
+                  Each day will be based on a design process. From Monday to
+                  Friday, you will be supported as you design a project: define
+                  the concept, the level design, and the prototype, right up to
+                  producing the final game to present for the national
+                  competition.
+                </p>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- SCHEDULE (aqua) -->
+      <section class="schedule">
+        <div class="container schedule__inner">
+          <h2 class="schedule__title">Schedule</h2>
+          <p class="schedule__subtitle">
+            Here's the programme for the week, with what's happening each day
+            for the English Game.<br />
+            You can see each day in more detail at the bottom of the schedule.
+          </p>
+
+          <div
+            class="surface surface--white surface--radius-lg surface--shadow surface--pad-lg">
+            <div class="week-grid">
+              <!-- MON -->
+              <div class="day">
+                <div class="day__head">
+                  <span class="day__name">Monday</span>
+                  <span class="day__num">2</span>
+                </div>
+
+                <div class="block block--dark">
+                  09:00 <span class="sep"></span> Kick-off
+                </div>
+                <div class="block block--ice">Ice-breaker</div>
+                <div class="block block--sand">
+                  #playing<br />#whyseriousgame
+                </div>
+                <div class="block block--lunch">Lunch</div>
+                <div class="block block--sand">
+                  #brainstorming<br />#gametopic<br />#concept
+                </div>
+                <div class="block block--tag">
+                  Concept doc <span class="mini-ico"></span>
+                </div>
+
+                <button class="pill-btn">
+                  View details <span class="eye"></span>
+                </button>
+              </div>
+
+              <!-- TUE -->
+              <div class="day">
+                <div class="day__head">
+                  <span class="day__name">Tuesday</span>
+                  <span class="day__num">3</span>
+                </div>
+
+                <div class="block block--sand">#leveldesign</div>
+                <div class="block block--ice">Introducing mockup</div>
+                <div class="block block--lunch">Lunch</div>
+                <div class="block block--ice">Vocabulary reminder game</div>
+                <div class="block block--sand">
+                  #mockup <span class="sep"></span> #rules
+                </div>
+                <div class="block block--tag">
+                  Level design mock-up <span class="mini-ico"></span>
+                </div>
+                <div class="block block--tag">
+                  Rules (V1) <span class="mini-ico"></span>
+                </div>
+
+                <button class="pill-btn">
+                  View details <span class="eye"></span>
+                </button>
+              </div>
+
+              <!-- WED -->
+              <div class="day">
+                <div class="day__head">
+                  <span class="day__name">Wednesday</span>
+                  <span class="day__num">4</span>
+                </div>
+
+                <div class="block block--sand">
+                  #usertests<br />#testoverview
+                </div>
+                <div class="block block--lunch">Lunch</div>
+                <div class="block block--sand">
+                  #graphicaldesign<br />#prototype<br />#content<br />#digitaladdon
+                </div>
+                <div class="block block--tag">
+                  Printable prototype <span class="mini-ico"></span>
+                </div>
+
+                <button class="pill-btn">
+                  View details <span class="eye"></span>
+                </button>
+              </div>
+
+              <!-- THU -->
+              <div class="day">
+                <div class="day__head">
+                  <span class="day__name">Thursday</span>
+                  <span class="day__num">5</span>
+                </div>
+
+                <div class="block block--sand">#enhancement</div>
+                <div class="block block--lunch">Lunch</div>
+                <div class="block block--sand">
+                  #usertests<br />#gameshooting<br />#editing
+                </div>
+
+                <button class="pill-btn">
+                  View details <span class="eye"></span>
+                </button>
+              </div>
+
+              <!-- FRI -->
+              <div class="day">
+                <div class="day__head">
+                  <span class="day__name">Friday</span>
+                  <span class="day__num">6</span>
+                </div>
+
+                <div class="block block--sand">#polishing</div>
+                <div class="block block--tag block--tag-strong">
+                  Video demo <span class="mini-ico"></span>
+                </div>
+                <div class="block block--tag block--tag-strong">
+                  Final game <span class="mini-ico"></span>
+                </div>
+                <div class="block block--sand">#localselection</div>
+                <div class="block block--lunch">Lunch</div>
+                <div class="block block--sand">#playing</div>
+                <div class="block block--teal">Project management debrief</div>
+                <div class="block block--teal">
+                  <span class="time">15:15</span> Pitch of 6 selected games
+                </div>
+                <div class="block block--teal">
+                  <span class="time">16:30</span> Results and prizes ceremony
+                </div>
+
+                <button class="pill-btn">
+                  View details <span class="eye"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MY PROJECT (dark) -->
+      <section class="my-project">
+        <div class="container my-project__inner">
+          <h2 class="my-project__title">My project</h2>
+          <p class="my-project__subtitle">
+            This is where you can see the deliverables your team needs to submit
+            during the week! Click on "Go to My Project" to find out what's on
+            the My Project page
+          </p>
+
+          <a class="btn btn--mint" href="#">Go to my project</a>
+
+          <div class="deliverables">
+            <!-- Late -->
+            <article class="deliverable deliverable--late">
+              <div class="deliverable__icon">!</div>
+              <h3 class="deliverable__title">Rules V1</h3>
+              <p class="deliverable__meta">Due date: Tuesday 12.30 PM</p>
+
+              <div class="upload-box">
+                <div class="upload-box__ico">⬆</div>
+                <div class="upload-box__text">
+                  Drag and Drop or <a href="#">choose file</a> to upload
+                </div>
+                <div class="upload-box__hint">
+                  <span>Fichier pris en charge : pdf, zip</span>
+                  <span>Max : 25MB</span>
+                </div>
+              </div>
+
+              <button class="outline-btn">
+                Download template <span class="dl"></span>
+              </button>
+              <p class="deliverable__status">You're late!</p>
+            </article>
+
+            <!-- Pending -->
+            <article class="deliverable">
+              <div class="deliverable__icon">⬚</div>
+              <h3 class="deliverable__title">Level design mockup</h3>
+              <p class="deliverable__meta">Due date: Tuesday 5 PM</p>
+
+              <div class="upload-box">
+                <div class="upload-box__ico">⬆</div>
+                <div class="upload-box__text">
+                  Drag and Drop or <a href="#">choose file</a> to upload
+                </div>
+                <div class="upload-box__hint">
+                  <span>Fichier pris en charge : pdf, zip</span>
+                  <span>Max : 25MB</span>
+                </div>
+              </div>
+
+              <button class="outline-btn">
+                Download template <span class="dl"></span>
+              </button>
+            </article>
+
+            <!-- Sent -->
+            <article class="deliverable deliverable--sent">
+              <div class="deliverable__icon">✓</div>
+              <h3 class="deliverable__title">Rules V1</h3>
+              <p class="deliverable__meta">Sended on Tuesday 5 PM</p>
+
+              <div class="file-pill">
+                <div class="file-pill__name">Nom_du_fichier.pdf</div>
+                <div class="file-pill__size">16MB</div>
+                <div class="file-pill__bar">
+                  <span style="width: 100%"></span>
+                </div>
+              </div>
+
+              <button class="btn btn--mint btn--sm">
+                Modify this deliverable <span class="pen"></span>
+              </button>
+              <button class="outline-btn">
+                Download template <span class="dl"></span>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- LEARNING (big white surface radius XL) -->
+      <section class="learning">
+        <div class="container-spec">
+          <section class="surface surface--paper surface--shadow adjusting">
+            <h2 class="learning__title">Learning</h2>
+            <p class="learning__subtitle">
+              Here's an idea of what you will be learning about during the week.
+              The information is provided in video format and will help you and
+              your team make your serious game as good as possible.<br />
+              Enjoy watching!
+            </p>
+
+            <div class="learning__cta">
+              <a class="btn btn--accent" href="#">Go to learning</a>
+            </div>
+
+            <div class="learning-grid">
+              <article class="learning-card">
+                <div class="learning-card__tag">Monday</div>
+                <div class="learning-card__media">
+                  <img
+                    src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=800&q=80&auto=format&fit=crop"
+                    alt="" />
+                </div>
+                <h3 class="learning-card__title">What are serious games?</h3>
+                <button class="learning-card__go" aria-label="Open">
+                  <span class="arrow"></span>
+                </button>
+              </article>
+
+              <article class="learning-card">
+                <div class="learning-card__tag">Monday</div>
+                <div class="learning-card__media">
+                  <img
+                    src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=80&auto=format&fit=crop"
+                    alt="" />
+                </div>
+                <h3 class="learning-card__title">Business case</h3>
+                <button class="learning-card__go" aria-label="Open">
+                  <span class="arrow"></span>
+                </button>
+              </article>
+
+              <article class="learning-card">
+                <div class="learning-card__tag">Monday</div>
+                <div class="learning-card__media">
+                  <img
+                    src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=800&q=80&auto=format&fit=crop"
+                    alt="" />
+                </div>
+                <h3 class="learning-card__title">About fun... and learning!</h3>
+                <button class="learning-card__go" aria-label="Open">
+                  <span class="arrow"></span>
+                </button>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer__inner">
+          <div class="footer__bottom">
+            <span>Made by MyDigitalSchool</span>
+            <span class="footer__links">
+              <a href="#">Terms of Service</a> | <a href="#">Credits</a> |
+              <a href="#">F.A.Q.</a> | <a href="#">Ticket</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+    </main>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
